@@ -1,7 +1,7 @@
 ---
-- hosts: tomcatServer
+- hosts: localhost
   vars:
-  - warName: helloworld.war
+  - warName: webapp.war
   - warRemotePath: /path/to/put/war
 
   tasks:
